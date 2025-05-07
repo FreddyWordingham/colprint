@@ -120,8 +120,6 @@ mod column_formatter;
 mod format_part;
 mod format_type;
 mod formattable_item;
-mod to_formattable_item;
 
 pub use column_formatter::ColumnFormatter;
 pub use formattable_item::FormattableItem;
-pub use to_formattable_item::ToFormattableItem;

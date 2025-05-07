@@ -9,3 +9,5 @@ keywords = ["display", "formatting", "pretty-printing", "alignment", "columns"]
 categories = ["command-line-utilities", "development-tools"]
 
 [dependencies]
+ndarray = "0.16.1"
+vista = { path = "../vista" }

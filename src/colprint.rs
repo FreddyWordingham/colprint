@@ -72,9 +72,9 @@ macro_rules! colprint {
                 if idx < format_specs.len() {
                     let spec = format_specs[idx];
                     if spec.contains(":#?") || spec.contains(":?") {
-                        items.push($crate::ToFormattableItem::to_debug_item(&$item));
+                        items.push($crate::FormattableItem::DebugItem(&$item));
                     } else {
-                        items.push($crate::ToFormattableItem::to_display_item(&$item));
+                        items.push($crate::FormattableItem::DisplayItem(&$item));
                     }
                     idx += 1;
                 }
