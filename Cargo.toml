@@ -1,0 +1,11 @@
+[package]
+name = "colprint"
+version = "0.0.0"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/FreddyWordingham/colprint"
+description = "A lightweight macro for neatly printing data in aligned columns with automatic width calculation and customisable separators."
+keywords = ["display", "formatting", "pretty-printing", "alignment", "columns"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
